@@ -9,7 +9,8 @@
     "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|json|ts|tsx)\"",
     "format": "yarn prettier --write ",
     "check-format": "yarn prettier --list-different ",
-    "validate": "yarn check-format && yarn lint && yarn build"
+    "validate": "yarn check-format && yarn lint && yarn build",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
